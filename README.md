@@ -1,1 +1,6 @@
 # CNNMoreVsLess
+This is a personal research project I have completed!
+I am currently writing a research paper for the work and eventually hope to have it published in a journal.
+
+Abstract:
+Performance degradation of convolutional neural networks trained with limited data is commonly attributed to insufficient sample size. Through data augmentation, existing images can be transformed in ways that emphasize relevant visual patterns rather than simply supplying more data. Building on this, this project examines how these augmentations affect the interclass separation and intraclass consistency of the models and compares these results to those observed in models trained on larger, unaugmented datasets. Using ResNet18 pretrained models, this work visually represents global average pooling (avgpool) layer activations through PCA graphs. The graphs reveal that in comparison to models with larger training data samples, models trained with augmentations and less data provide smaller increases in interclass separation but cause significantly larger reductions to intraclass variance. These findings emphasize the role of representation stability in low-data learning and demonstrate the value of internal analysis for understanding model optimization.
